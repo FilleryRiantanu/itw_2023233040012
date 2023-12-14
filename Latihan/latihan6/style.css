@@ -133,5 +133,7 @@ nav ul li a:hover {
     }
 
     nav ul.slide {
-        transform: translateX(0);}
-        
+        transform: translateX(0);
+    }
+     
+}
