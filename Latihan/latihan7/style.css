@@ -1,0 +1,65 @@
+ *{
+    margin: 0;
+    padding: 0 ;
+ }
+
+ img {
+    width: 100%;
+
+}
+
+body {
+    background-color: white;
+    font-size: 18px;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    margin: 50px;
+}
+
+/* Header */
+
+.header {
+    display: grid;
+    grid-template-areas: 
+    'hero hero feature-1'
+    'hero hero feature-2';
+}
+.hero {
+    grid-area: hero;
+    min-height: 300px;
+    background-image: url(IMG/Untitled\ Project.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+
+}
+
+.hero > * {
+    display: none;
+
+}
+
+.features {
+    background-color: black;
+    color: white;
+    display: grid;
+    /* justify-content: center; 
+    align-content: center;*/
+    place-content: center;
+    text-align: center;
+    cursor: painter;
+
+}
+.feature-1 {
+    grid-area: feature-1;
+    color: black;
+    background-image:url(IMG/hoodie1.jpeg);
+    background-size: cover;
+}
+
+.feature-2 { 
+    grid-area: feature-2 ;
+    color: black;
+    background-image: url(IMG/tshirt.jpeg);
+    background-size: cover;
+
+}
